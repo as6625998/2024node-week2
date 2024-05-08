@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "0e8409ab-b085-467c-b166-632a6c37b2a0",
+		"name": "Posts-heroko",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34246648"
+	},
+	"item": [
+		{
+			"name": "取得所有代辦",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://metawall-backend-l6rr.onrender.com/posts",
+					"protocol": "https",
+					"host": [
+						"metawall-backend-l6rr",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆代辦",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"小狗\",\r\n    \"content\":123\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://metawall-backend-l6rr.onrender.com/posts",
+					"protocol": "https",
+					"host": [
+						"metawall-backend-l6rr",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有代辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://metawall-backend-l6rr.onrender.com/posts",
+					"protocol": "https",
+					"host": [
+						"metawall-backend-l6rr",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆代辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://metawall-backend-l6rr.onrender.com/posts/",
+					"protocol": "https",
+					"host": [
+						"metawall-backend-l6rr",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "編輯單筆代辦",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://metawall-backend-l6rr.onrender.com/posts/",
+					"protocol": "https",
+					"host": [
+						"metawall-backend-l6rr",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
